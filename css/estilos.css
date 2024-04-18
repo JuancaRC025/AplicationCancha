@@ -1,0 +1,317 @@
+*{
+
+    text-decoration: none;
+    font-family: cursive;
+}
+
+body{
+    background-image: linear-gradient(rgba(5,7,12,0.40),rgba(5,7,12,0.40)),url(../img/ingresar.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+  
+    margin: 28px;
+}
+
+.contenedor__todo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.caja__trasera{
+    width: 100%;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgb(12 13 14 / 50%);
+    margin-top: 10px;
+
+}
+
+.caja__trasera div{
+    margin: 100px 40px;
+    color: white;
+    transition: all 500ms;
+}
+
+
+.caja__trasera div p,
+.caja__trasera button{
+    margin-top: 30px;
+}
+
+.caja__trasera div h3{
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.caja__trasera div p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.caja__trasera button{
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    font-size: 14px;
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transition: all 300ms;
+}
+
+.caja__trasera button:hover{
+    background: #fff;
+    color: #058105;
+}
+
+/* /Formularios/ */
+
+.contenedor__login-register{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -185px;
+    left: 10px;
+
+    /* /La transicion va despues del codigo JS/ */
+    transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+.contenedor__login-register form{
+    border: 2px solid;
+    width: 100%;
+    padding: 40px 20px;
+    background: #368f39;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contenedor__login-register form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.contenedor__login-register form input{
+        border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor__login-register form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: 2px solid;
+    font-size: 14px;
+    background: #000000;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+
+
+.formulario__login{
+    opacity: 1;
+    display: block;
+}
+
+.formulario__login img{
+    width: 90px;
+    display: block;
+    margin: 20px auto;
+}
+.formulario__register{
+    display: none;
+}
+
+.formulario__register img{
+    width: 90px;
+    display: block;
+    margin: 20px auto;
+}
+
+
+@media screen and (max-width: 850px){
+
+    main{
+        margin-top: 50px;
+    }
+
+    .caja__trasera{
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .caja__trasera div{
+        margin: 0px;
+        position: absolute;
+    }
+
+
+    /* Formularios */
+
+    .contenedor__login-register{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+
+    .contenedor__login-register form{
+        position: relative;
+    }
+}
+
+/* juan */
+#i1,
+#i2 {
+    text-align: right;
+    margin: 0;
+    color: black;
+    /* Elimina el margen predeterminado de los títulos */
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #aaaaaa47;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+    /* Ajusta el ancho máximo del logo según tus necesidades */
+    height: auto;
+}
+
+/* Estilos para los títulos */
+.titles {
+    text-align: right;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    /* Ajusta el margen derecho según tus necesidades */
+}
+
+
+/* Estilos de la barra de navegación */
+ul.navbar {
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    background-color: #aaaaaa7e;
+    /* Color de fondo de la barra de navegación */
+}
+
+li.nav-item {
+    float: left;
+    font-size: 20px;
+}
+
+li.nav-item a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+li.nav-item a:hover {
+    background-color: #007a8aad;
+    /* Color de fondo al pasar el mouse por encima */
+}
+
+/* Estilos para el menú desplegable */
+li.nav-item.dropdown {
+    display: inline-block ;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 100px;
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffffff;
+}
+
+li.nav-item.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+
+/* Estilos para el logo */
+.logo img {
+    max-width: 100%;
+    /* Ajusta el tamaño máximo del logo */
+    height: auto;
+}
+
+/* Estilos para los títulos */
+.titles {
+    text-align: right;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    /* Ajusta el margen derecho según tus necesidades */
+}
+
+
+/* Estilos para el contenedor de opciones */
+.options {
+    display: flex;
+    justify-content: space-between;
+    /* Espacio entre elementos */
+    align-items: center;
+    /* Centrar verticalmente */
+    margin: 20px 0;
+    /* Espacio superior e inferior */
+}
+
+/* Estilos para cada opción */
+.option {
+    text-align: center;
+}
+
+.option img {
+    max-width: 30%;
+    /* Ajustar el tamaño máximo de las imágenes */
+    height: auto;
+    margin-bottom: 10px;
+    /* Espacio entre la imagen y el texto */
+}

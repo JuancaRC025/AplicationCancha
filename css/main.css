@@ -1,0 +1,563 @@
+body {
+    font-family: cursive;
+}
+
+a.option p {
+    font-size: 20px;
+    /* Ajusta el tamaño de la fuente según tus necesidades */
+}
+
+#i1,
+#i2 {
+    text-align: right;
+    margin: 0;
+    /* Elimina el margen predeterminado de los títulos */
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    /* Elimina el margen predeterminado de los títulos */
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    /* Elimina el margen predeterminado de los títulos */
+}
+
+/* Estilos para el encabezado */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #aaaaaa47;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+/* Estilos para el logo */
+.logo img {
+    max-width: 100px;
+    /* Ajusta el ancho máximo del logo según tus necesidades */
+    height: auto;
+}
+
+/* Estilos para los títulos */
+.titles {
+    text-align: right;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    /* Ajusta el margen derecho según tus necesidades */
+}
+
+
+
+/* Estilos de la barra de navegación */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #aaaaaa7e;
+    /* Color de fondo de la barra de navegación */
+}
+
+.nav-item a {
+    text-decoration: none;
+    /* Elimina el subrayado de los enlaces */
+    color: #fff;
+    /* Cambia el color del texto de los enlaces */
+}
+
+li.nav-item {
+    float: left;
+    font-size: 20px;
+}
+
+li.nav-item a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+li.nav-item a:hover {
+    background-color: #007a8aad;
+    /* Color de fondo al pasar el mouse por encima */
+}
+
+/* Estilos para el menú desplegable */
+li.nav-item.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #fffdfd;
+}
+
+li.nav-item.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+
+/* Estilos para el logo */
+.logo img {
+    max-width: 100%;
+    /* Ajusta el tamaño máximo del logo */
+    height: auto;
+}
+
+/* Estilos para los títulos */
+.titles {
+    text-align: right;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    /* Ajusta el margen derecho según tus necesidades */
+}
+
+
+/* Estilos para el contenedor de opciones */
+.options {
+    display: flex;
+    justify-content: space-between;
+    /* Espacio entre elementos */
+    align-items: center;
+    /* Centrar verticalmente */
+    margin: 20px 0;
+    /* Espacio superior e inferior */
+}
+
+/* Estilos para cada opción */
+.option {
+    text-align: center;
+}
+
+.option img {
+    max-width: 30%;
+    /* Ajustar el tamaño máximo de las imágenes */
+    height: auto;
+    margin-bottom: 10px;
+    /* Espacio entre la imagen y el texto */
+}
+
+body {
+
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen para cubrir toda la página */
+    background-repeat: no-repeat;
+    /* Evita que la imagen de fondo se repita */
+    color: rgb(0, 0, 0);
+    /* Color del texto en la página */
+}
+
+/*-----------------------Reg_Usuario---------------------------------------------*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0;
+    text-align: left;
+}
+
+input {
+    border-radius: 30px 60px;
+    width: 20% !important;
+    padding: 10px;
+    margin: 6px 0;
+}
+
+button[type="submit"] {
+    background-color: #20c000;
+    /* Color de fondo */
+    color: #fff;
+    /* Color del texto */
+    border: none;
+    /* Sin borde */
+    padding: 10px 20px;
+    /* Relleno */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    /* Cambia el cursor al pasar el mouse */
+}
+
+button[type="submit"]:hover {
+    background-color: #0b5a00;
+    /* Cambia el color de fondo al pasar el mouse */
+    transform: scale(1.1);
+    /* Aumenta el tamaño del botón al 120% */
+}
+
+
+
+/*-----------------------Reg_Empresa---------------------------------------------*/
+
+table {
+
+    width: 50%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el campo de información detallada */
+textarea {
+    display: block;
+    /* Hace que el campo de texto ocupe toda la línea */
+    margin-top: 5px;
+    /* Espacio superior */
+    width: 60%;
+    /* Ocupa el ancho completo */
+    padding: 15px;
+    /* Relleno */
+    border-radius: 40px 60px
+}
+
+/*---------------------------Canchas-----------------------------*/
+
+#logoEmpresa {
+    display: block;
+    /* Hace que la imagen se muestre como un bloque */
+    margin: 0 auto;
+    /* Centra horizontalmente la imagen en su contenedor */
+    max-width: 100%;
+    /* Ajusta el tamaño máximo de la imagen al 100% del ancho del contenedor */
+    height: auto;
+    /* Mantiene la proporción de aspecto original de la imagen */
+}
+
+
+.cancha-info {
+    border: 2px solid #333;
+    /* Agrega un borde sólido de 2 píxeles con color #333 */
+    padding: 20px;
+    /* Agrega relleno alrededor del contenido para crear un espacio */
+    margin: 20px;
+    /* Agrega margen exterior para separar el recuadro de otros elementos */
+    background-color: #f0f0f05e;
+    /* Cambia el color de fondo del recuadro */
+}
+
+.cancha-social {
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Agrega relleno alrededor del contenido */
+    background-color: #f0f0f0a1; /* Cambia el color de fondo del contenedor */
+}
+
+
+.social-icon {
+    display: inline-block;
+    /* Hace que los elementos se muestren en línea uno al lado del otro */
+    margin-right: 15px;
+    /* Agrega espacio entre los íconos */
+}
+
+.social-icon img {
+    width: 80px;
+    /* Cambia el ancho de las imágenes de redes sociales */
+    height: 80px;
+    /* Cambia la altura de las imágenes de redes sociales */
+    vertical-align: middle;
+    /* Alinea verticalmente los íconos en el texto */
+}
+
+#i3 {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 18px; /* Cambia el tamaño de fuente */
+    color: #333; /* Cambia el color del texto */
+    margin-top: 10px; /* Agrega espacio en la parte superior de los párrafos */
+}
+/* -------------------------------Reservar--------------------------------- */
+
+.page-container {
+    display: flex;
+}
+
+.consulta-window {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px; /* Añade un margen derecho para separar las ventanas */
+}
+
+
+.form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#fr {
+    width: 50% !important;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para las imágenes */
+.icon-label img {
+    width: 24px; /* Ancho deseado */
+    height: 24px; /* Alto deseado */
+}
+
+
+.horario-window {
+    width: 1500px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+.consulta-horario-container {
+    display: flex;
+    justify-content: space-between; /* Separa las ventanas en ambos lados */
+}
+
+.consulta-window, .horario-window {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+/* Estilos para la tabla */
+table {
+    width: 100%; /* Ancho del 100% para que se expanda al ancho de su contenedor */
+    border-collapse: collapse; /* Colapsa los bordes de las celdas */
+    margin: 10px 0; /* Espacio entre la tabla y otros elementos */
+}
+
+table, th, td {
+    border: 1px solid #000000; /* Borde de las celdas y la tabla */
+    border-block-color: black;
+}
+
+th, td {
+    padding: 1px; /* Espaciado interno en las celdas */
+    text-align: center; /* Texto centrado en las celdas */
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #27b005;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.button-container {
+    display: flex; /* Utiliza flexbox para alinear los botones en línea */
+    gap: 10px; /* Espacio entre los botones */
+    justify-content: center; /* Centra horizontalmente los botones */
+}
+
+.reservar-button, .cancelar-button {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reservar-button:hover, .cancelar-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* estilos.css */
+
+.cancha-box {
+    font-size: 12;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    background-color: #bbbbbb;
+    text-align: center;
+    width: 500px; /* Establece el ancho fijo en píxeles */
+}
+
+
+.cancha-box h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.cancha-box p {
+    font-size: 1.1em;
+}
+
+.cancha-box a {
+    display: block;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+
+
+/* Estilo para la barra de navegación */
+.navbar {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* Asegúrate de que .nav tenga un ancho del 100% y esté alineado a la derecha */
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Mostrar los elementos en línea */
+    justify-content: space-between; /* Distribuir los elementos a lo largo de la barra */
+    align-items: center; /* Alinear verticalmente al centro */
+    width: 100%; /* Ancho del 100% */
+}
+
+.nav-item {
+    margin-right: 10px; /* Ajusta el margen entre elementos según sea necesario */
+}
+/* Estilo para el enlace del icono de cierre de sesión */
+.cerrar-sesion {
+    color: #000 !important; /* Cambia el color según tus preferencias */
+    font-size: 25px; /* Ajusta el tamaño del texto */
+    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+    display: flex; /* Utiliza flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido del enlace */
+    float: right; /* Coloca el elemento a la derecha */
+    margin-right: 30px; /* Ajusta el espacio desde el borde derecho */
+}
+
+/* Estilo para el icono de cierre de sesión */
+.cerrar-sesion i {
+    margin-right: 5px; /* Ajusta el espacio entre el ícono y el texto si es necesario */
+    /* Puedes ajustar la posición vertical del ícono según tus necesidades */
+    margin-top: 20px !important; /* Ajusta la posición vertical del ícono */
+}
+
+/* Estilo para el enlace del perfil */
+.perfil {
+    color: #000 !important; /* Cambia el color según tus preferencias */
+    font-size: 25px; /* Ajusta el tamaño del texto */
+    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+    display: flex; /* Utiliza flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido del enlace */
+    float: right; /* Coloca el elemento a la derecha */
+    margin-right: 30px !important; /* Ajusta el espacio desde el borde derecho */
+}
+
+/* Estilo para el ícono dentro del enlace */
+.perfil i {
+    margin-right: 0px !important; /* Ajusta el espacio entre el ícono y el texto si es necesario */
+    /* Puedes ajustar la posición vertical del ícono según tus necesidades */
+    margin-top: 20px !important ; /* Ajusta la posición vertical del ícono */
+}
+
+/* ----------------------Metodos de pago------------------------------ */
+#verFormasPago {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    margin-top: 20px; /* Puedes ajustar el margen según tu diseño */
+    margin-bottom: 10px; /* Ajusta el margen inferior según sea necesario */
+}
+
+.imagenes-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.imagenes-container img {
+    width: 200px; /* Ajusta el ancho de las imágenes según sea necesario */
+    height: 150px; /* Mantiene la proporción de aspecto original */
+    margin-right: 1px; /* Espaciado a la derecha de cada imagen */
+}
+
+
+
+
